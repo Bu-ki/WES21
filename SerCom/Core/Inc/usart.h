@@ -32,13 +32,13 @@ extern "C" {
 
 /* USER CODE END Includes */
 
-extern UART_HandleTypeDef huart1;
+extern UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN Private defines */
 # define BUFSIZE 16
 /* USER CODE END Private defines */
 
-void MX_USART1_UART_Init(void);
+void MX_USART2_UART_Init(void);
 
 /* USER CODE BEGIN Prototypes */
 extern uint8_t rx_data;
@@ -46,10 +46,10 @@ extern char RX_BUFFER [ BUFSIZE ];
 
 extern int RX_BUFFER_HEAD , RX_BUFFER_TAIL ;
 
-void USART1_SendChar ( uint8_t c);
-int USART1_Dequeue ( char *c);
+void USART2_SendChar ( uint8_t c);
+int USART2_Dequeue ( char *c);
 
-void USER_UART_IRQHandler ( UART_HandleTypeDef * huart );
+void USER_UART_IRQHandler ( UART_HandleTypeDef *huart );
 /* USER CODE END Prototypes */
 
 #ifdef __cplusplus

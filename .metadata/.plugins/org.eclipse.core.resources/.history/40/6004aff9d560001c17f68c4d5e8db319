@@ -1,0 +1,3 @@
+void init_AudioReset () {
+	HAL_GPIO_WritePin (GPIOD , AUDIO_RESET_PIN , GPIO_PIN_SET );
+}
