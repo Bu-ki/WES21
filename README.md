@@ -1,5 +1,5 @@
 # WES21
 ...
 Upute za uporabu zadatka.
-Svaki neparni pritisak na notu rezultiran šumom nedefinirane duljine, dok svaki drugi ton ne.
+Nakon svakog neparnog pritiska na notu, na kraju trajanja note, čuje se šum nedefinirane duljine, dok svaki drugi ton nema tu nuspojavu.
 Šum je puno glasniji od tona te se preporučuje povećan oprez.
